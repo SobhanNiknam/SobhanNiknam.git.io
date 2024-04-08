@@ -1,124 +1,53 @@
 ---
-# Display name
-title: 吳健雄
-
-# Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
-
-# Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
-
-# Status emoji
-status:
-  icon: ☕️
-
-# Is this the primary user of the site?
-superuser: true
-
-# Role/position/tagline
-role: Professor of Artificial Intelligence
-
-# Organizations/Affiliations to show in About widget
-organizations:
-  - name: Stanford University
-    url: https://www.stanford.edu/
-
-# Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
-
-# Interests to show in About widget
-interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
-
-# Education to show in About widget
+bio: My research interests include , but are not limited to, system-level design of fault-tolerant, energy-efficient, and real-time multiprocessor embedded systems, parallel dataflow models of computation, and design space exploration.
+  matter.
 education:
   courses:
-    - course: PhD in Artificial Intelligence
-      institution: Stanford University
-      year: 2012
-    - course: MEng in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2009
-    - course: BSc in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2008
-
-# Skills
-# For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
-skills:
-  - name: Technical
-    items:
-      - name: Python
-        description: ''
-        percent: 80
-        icon: python
-        icon_pack: fab
-      - name: Data Science
-        description: ''
-        percent: 100
-        icon: chart-line
-        icon_pack: fas
-      - name: SQL
-        description: ''
-        percent: 40
-        icon: database
-        icon_pack: fas
-  - name: Hobbies
-    color: '#eeac02'
-    color_border: '#f0bf23'
-    items:
-      - name: Hiking
-        description: ''
-        percent: 60
-        icon: person-hiking
-        icon_pack: fas
-      - name: Cats
-        description: ''
-        percent: 100
-        icon: cat
-        icon_pack: fas
-      - name: Photography
-        description: ''
-        percent: 80
-        icon: camera-retro
-        icon_pack: fas
-
-# Social/Academic Networking
-# For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
-#   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
-#   form "mailto:your-email@example.com" or "/#contact" for contact widget.
+  - course: PhD in Computer Science
+    institution: Leiden University, The Netherlands.
+    year: 2020
+  - course: MSc Computer Engineering
+    institution: Iran University of Sicene and Technology, Iran.
+    year: 2014
+  - course: BSc in Computer Engineering
+    institution: Shahed University, Iran.
+    year: 2012
+email: ""
+highlight_name: false
+#interests:
+#- Artificial Intelligence
+#- Computational Linguistics
+#- Information Retrieval
+organizations:
+- name: TNO-ESI
+  url: https://www.esi.nl
+role: Research Fellow 
 social:
-  - icon: envelope
-    icon_pack: fas
-    link: '/#contact'
-  - icon: twitter
-    icon_pack: fab
-    link: https://twitter.com/GeorgeCushen
-    label: Follow me on Twitter
-    display:
-      header: true
-  - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
-    icon_pack: fas
-    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
-  - icon: github
-    icon_pack: fab
-    link: https://github.com/gcushen
-  - icon: linkedin
-    icon_pack: fab
-    link: https://www.linkedin.com/
-  # Link to a PDF of your resume/CV.
-  # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
-  # and uncomment the lines below.
-  - icon: cv
-    icon_pack: ai
-    link: uploads/resume.pdf
-
-# Highlight the author in author lists? (true/false)
-highlight_name: true
+- icon: envelope
+  icon_pack: fas
+  link: mailto:sobhan.niknam@tno.nl, sobhan.niknam@uva.nl
+#- display:
+#    header: true
+#  icon: twitter
+#  icon_pack: fab
+#  label: Follow me on Twitter
+#  link: https://twitter.com/GeorgeCushen
+- icon: graduation-cap
+  icon_pack: fas
+  link: https://scholar.google.com/citations?hl=en&user=K5WI-xcAAAAJ
+- icon: github
+  icon_pack: fab
+  link: https://github.com/SobhanNiknam
+- icon: linkedin
+  icon_pack: fab
+  link: https://www.linkedin.com/in/sobhan-niknam-78848551/
+- icon: researchgate
+  icon_pack: fab
+  link: https://www.researchgate.net/profile/Sobhan-Niknam
+superuser: true
+title: Sobhan Niknam
 ---
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
-{style="text-align: justify;"}
+Sobhan Niknam is a research fellow at [TNO-ESI](https://esi.nl) working on performance diagnostics of complex cyber-physical systems in high-tech industries. Prior to this, he was a postdoctoral researcher at the [Parallel Computing Systems (PCS)](https://pcs-research.nl) group within the Informatics Institute of University of Amsterdam where he worked under the supervision of [Prof.dr. Andy Pimentel](https://staff.fnwi.uva.nl/a.d.pimentel/) on the [ADMORPH](http://admorph.eu) project. He also received his Ph.D. in computer science from the [Leiden Institude of Advanced Computer Science (LIACS)](https://liacs.leidenuniv.nl) at Leiden University under the supervision of [Dr. Todor Stefanov](https://liacs.leidenuniv.nl/~stefanovtp/) in August 2020. <!--My research interests include, but are not limited to, system-level design of fault-tolerant, energy-efficient, and real-time multiprocessor embedded systems, parallel dataflow models of computation, and design space exploration. -->
+
+<!--{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.-->

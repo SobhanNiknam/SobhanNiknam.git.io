@@ -1,21 +1,18 @@
 ---
-title: Slides
-summary: An introduction to using Hugo Blox Builder's Slides feature.
 authors: []
-tags: []
 categories: []
-date: '2019-02-05T00:00:00Z'
+date: "2019-02-05T00:00:00Z"
 slides:
-  # Choose a theme from https://github.com/hakimel/reveal.js#theming
-  theme: black
-  # Choose a code highlighting style (if highlighting enabled in `params.toml`)
-  #   Light style: github. Dark style: dracula (default).
   highlight_style: dracula
+  theme: black
+summary: An introduction to using Wowchemy's Slides feature.
+tags: []
+title: Slides
 ---
 
-# Create slides in Markdown with Hugo Blox Builder
+# Create slides in Markdown with Wowchemy
 
-[Hugo Blox Builder](https://hugoblox.com/) | [Documentation](https://docs.hugoblox.com/content/slides/)
+[Wowchemy](https://wowchemy.com/) | [Documentation](https://owchemy.com/docs/managing-content/#create-slides)
 
 ---
 
@@ -38,7 +35,7 @@ slides:
 - Speaker notes: `S`
 - Fullscreen: `F`
 - Zoom: `Alt + Click`
-- [PDF Export](https://revealjs.com/pdf-export/)
+- [PDF Export](https://github.com/hakimel/reveal.js#pdf-export): `E`
 
 ---
 
@@ -47,7 +44,6 @@ slides:
 Inline code: `variable`
 
 Code block:
-
 ```python
 porridge = "blueberry"
 if porridge == "blueberry":
@@ -99,19 +95,17 @@ Add speaker notes to your presentation
 
 ```markdown
 {{%/* speaker_note */%}}
-
 - Only the speaker can read these notes
 - Press `S` key to view
-  {{%/* /speaker_note */%}}
+{{%/* /speaker_note */%}}
 ```
 
 Press the `S` key to view the speaker notes!
 
 {{< speaker_note >}}
-
 - Only the speaker can read these notes
 - Press `S` key to view
-  {{< /speaker_note >}}
+{{< /speaker_note >}}
 
 ---
 
@@ -164,6 +158,6 @@ Create `assets/css/reveal_custom.css` with:
 
 # Questions?
 
-[Ask](https://discord.gg/z8wNYzb)
+[Ask](https://github.com/wowchemy/wowchemy-hugo-modules/discussions)
 
-[Documentation](https://docs.hugoblox.com/content/slides/)
+[Documentation](https://wowchemy.com/docs/managing-content/#create-slides)
